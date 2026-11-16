@@ -6,7 +6,7 @@
 5. Запустили агента: eval $(ssh-agent -s)
 6. Добавили ключ в агента: ssh-add ~/.ssh/id_ed25519.
 7. Скопировали публичный ключ в буфер обмена (clip < ~/.ssh/id_ed25519.pub): ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKHI85hlZ3azUW73Ij/XjgagTYxH8ft6RrYfia53sLZS ismallova.xennia@gmail.com
-8. Открыли GitHub: Settings → SSH and GPG keys → New SSH key [keygen.png](screenshots/keygen.png)
+8. Открыли GitHub: Settings → SSH and GPG keys → New SSH key [github-key](screenshots/github-key)
 9. Добавили ключ в список, подтвердили добавление.
 10. Запустили в терминале: ssh -T git@github.com.
 11. При первом подключении подтвердили доверие хосту (yes), GitHub добавлен в known_hosts.
